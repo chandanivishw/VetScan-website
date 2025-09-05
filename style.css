@@ -325,13 +325,11 @@ textarea {
         font-size: medium;
         margin: 0;
         padding: 0;
-        /* margin-left: 10px; */
+        margin-left: 30px;
 
     }
 
-    section{
-        padding-left: 20px;
-    }
+
     .heading {
         text-align: center;
         width: 100%;
@@ -345,11 +343,7 @@ textarea {
         display: block;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
 
-    }
-    .image img{
-        width: 100%;
     }
 
     .con1,
@@ -359,7 +353,12 @@ textarea {
         text-align: center;
         margin-top: 5px;
     }
- .why-diagnopet li {
+
+    .con1 {
+        width: 100%;
+    }
+
+    .why-diagnopet li {
         list-style: none;
         text-align: justify;
         padding: 10px;
@@ -372,8 +371,7 @@ textarea {
     }
 
     .contents-img img {
-        width: 260px;
-        height: 500px;
+        width: 100%;
 
     }
 
@@ -381,16 +379,11 @@ textarea {
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
-     
-        
 
     }
- 
 
     .container2 {
-        width: 280px;
-        /* width:100%; */
-        margin-left: 20px;
+        width: 100%;
         background-color: rgba(210, 209, 209, 0.842);
     }
 
@@ -432,7 +425,7 @@ textarea {
         grid-template-rows: 1fr 1fr;
         gap: 10px;
         background-color: rgba(219, 216, 216, 0.345);
-        margin-left: 20px;
+        /* padding: 50px; */
     }
 
     .referring-text {
@@ -444,31 +437,29 @@ textarea {
         padding: 10px;
         margin: 20px;
         background-color: rgba(248, 245, 245, 0.735);
-        width: 280px;
     }
-    
- .experience-container {
+
+    .experience-container {
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
         gap: 10px;
-        /* padding: 10px; */
+        padding: 10px;
 
     }
 
     .experience-content h3 {
-        font-size: large;
+        font-size: small;
 
     }
 
     .experience-content {
         line-height: normal;
-        /* padding: 10px; */
+        padding: 10px;
     }
 
     .video video {
-        width: 240px;
-      
+        width: 250px;
     }
 
 
